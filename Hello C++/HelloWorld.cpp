@@ -1,17 +1,9 @@
-/*
- * HelloWorld.cpp
- *
- *  Created on: 18.06.2018
- *      Author: Lars Gruber
- */
-
-#include "HelloWorld.h"
-
 #include <iostream>
 
-int main()
+int _tmain(int argc, _TCHAR* argv[])
 {
-	const char* std::cout;
-    std::cout << "Hello, World!";
-    return 0;
+	std::cout<<"Preis: ";
+    std::cout<<"100 ";
+    std::cout<<"Euro"<<std::endl;
+	return 0;
 }
