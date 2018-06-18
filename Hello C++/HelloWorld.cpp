@@ -1,9 +1,8 @@
 #include <iostream>
+using namespace std;
 
-int _tmain(int argc, _TCHAR* argv[])
+int HelloWorld() 
 {
-	std::cout<<"Preis: ";
-    std::cout<<"100 ";
-    std::cout<<"Euro"<<std::endl;
-	return 0;
+    cout << "Hello, World!";
+    return 0;
 }
